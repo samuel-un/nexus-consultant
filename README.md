@@ -32,4 +32,4 @@
 
 ### Licencia
 
-Este proyecto está bajo la licencia MIT. Para más detalles, revisa el archivo [LICENSE](LICENSE).
+Este proyecto está bajo la licencia MIT.
