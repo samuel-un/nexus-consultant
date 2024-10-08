@@ -1,35 +1,35 @@
 # Nexus Consulting
 
-### Descripción
-**Nexus Consulting** es un proyecto colaborativo desarrollado por estudiantes de FP de Grado Superior en Desarrollo de Aplicaciones Web (DAW). El proyecto consiste en crear una plataforma de consultoría que facilite la comunicación entre consultores y clientes, proporcionando un sistema de gestión de proyectos, análisis de datos, y asesoramiento personalizado.
+### Description
+**Nexus Consulting** is a collaborative project developed by students of Higher Level Vocational Training in Web Application Development (DAW). The project consists of creating a consulting platform that facilitates communication between consultants and clients, providing a project management system, data analysis, and personalized advice.
 
 ---
 
-### Índice
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Licencia](#licencia)
+### Index
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
 ---
 
-### Características
+### Features
 
-- Gestión de clientes y proyectos.
-- Asesoramiento en línea entre consultores y clientes.
-- Análisis de datos y generación de reportes.
-- Integración con herramientas de colaboración.
+- Client and project management.
+- Online consulting between consultants and clients.
+- Data analysis and report generation.
+- Integration with collaboration tools.
 
 ---
 
-### Tecnologías Utilizadas
+### Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: -
-- **Base de Datos**: -
-- **Control de Versiones**: Git y GitHub
+- **Database**: -
+- **Version Control**: Git and GitHub
 
 ---
 
-### Licencia
+### License
 
-Este proyecto está bajo la licencia MIT.
+This project is licensed under the MIT License.
