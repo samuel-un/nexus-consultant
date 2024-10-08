@@ -1,7 +1,7 @@
-# Nexus Consultant
+# Nexus Consulting
 
 ### Descripción
-**Nexus Consultant** es un proyecto colaborativo desarrollado por estudiantes de FP de Grado Superior en Desarrollo de Aplicaciones Web (DAW). El proyecto consiste en crear una plataforma de consultoría que facilite la comunicación entre consultores y clientes, proporcionando un sistema de gestión de proyectos, análisis de datos, y asesoramiento personalizado.
+**Nexus Consulting** es un proyecto colaborativo desarrollado por estudiantes de FP de Grado Superior en Desarrollo de Aplicaciones Web (DAW). El proyecto consiste en crear una plataforma de consultoría que facilite la comunicación entre consultores y clientes, proporcionando un sistema de gestión de proyectos, análisis de datos, y asesoramiento personalizado.
 
 ---
 
