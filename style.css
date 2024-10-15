@@ -50,6 +50,7 @@ a:hover {
 
 /*///////////////////////////////////////////////////////////////*/
 
+/*-----------------------------FRONT-PAGE--------------------------------*/
 section#title {
   float: left;
   height: 80%;
@@ -109,7 +110,31 @@ button#info:hover{
 button i{
   padding: 10px;
 }
+/*-----------------------------SERVICES------------------------------*/
 
+#services ol{
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+
+
+li{
+  background-color:  #B2E8FF;
+  color: white;
+  border-radius: 12px;
+  display: inline-block;
+  width: 25%;
+  padding: 20px;
+}
+
+.encabezado{
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+/*------------------------------FOOTER---------------------------------*/
 footer {
   height: 10%;
 }
