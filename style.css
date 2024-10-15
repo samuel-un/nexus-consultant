@@ -35,10 +35,13 @@ width: 70%;
 
 div#front-page {
   height: 700px;
-  background-color: black;
+  background-color: rgb(15, 8, 38);
   color: white;
   position: relative;
- 
+  background-image: url(images/foto-portada.png), linear-gradient(black, white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   text-transform: uppercase;
@@ -48,14 +51,21 @@ h1 {
 h1 > strong {
   font-size: 70px;
 }
-#info {
+button#info {
   border-radius: 40px;
-  width: 40%;
-  height: 8%;
+  width: 230px;
+  height: 60px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   background-color: #B2E8FF;
+  border-color: transparent;
+}
+
+button#info:hover{
+  border-color: transparent;
+  background-color: #1400FF;
+  color: white;
 }
 
 footer {
