@@ -216,8 +216,7 @@ li.profile{
   width: 200px;
   border-radius: 100%;
   background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(20, 0, 255, 0.8));
-
+  background-image: linear-gradient(to top, rgb(178, 232, 255), rgba(20, 0, 255, 1));
 }
 
 /*------------------------------FOOTER---------------------------------*/
