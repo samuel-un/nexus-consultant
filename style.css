@@ -33,7 +33,7 @@ nav{
   text-align: right;
 }
 nav a{
-  color: #B2E8FF;
+  color: white;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ nav i{
 }
 
 a:hover {
-  color: #1400FF;
+  color: #B2E8FF;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -51,6 +51,7 @@ a:hover {
 /*///////////////////////////////////////////////////////////////*/
 
 /*-----------------------------FRONT-PAGE--------------------------------*/
+
 section#title {
   float: left;
   height: 80%;
@@ -63,9 +64,11 @@ section#title {
   position: absolute;
   bottom: 0;
 }
+
 section#title p{
 width: 70%;
 }
+
 #subtitle{
   font-size: 20px;
 }
@@ -90,6 +93,7 @@ h1 > strong {
 }
 
 /*----------------------CONTACT-BUTTON---------------------------*/
+
 button#info {
   border-radius: 40px;
   width: 230px;
@@ -110,36 +114,114 @@ button#info:hover{
 button i{
   padding: 10px;
 }
+
 /*-----------------------------SERVICES------------------------------*/
 
+#services{
+  padding: 5%;
+  margin: 5% 0;
+}
+
 #services ol{
-  padding: 40px;
+  padding: 5% 0;
   display: flex;
   justify-content: space-between;
   gap: 20px
 }
 
-
-li{
+#services li{
   background-color:  #B2E8FF;
-  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(178, 232, 255, 0.7 )), url(images/cards-background.png);
+  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(28, 21, 102, 0.7)), url(images/cards-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  border-radius: 12px;
+  border-radius: 15px;
   border-color: transparent;
   display: inline-block;
   width: 25%;
-  padding: 30px;
+  padding: 3%;
+}
+
+#services li:hover{
+  background-color:  #B2E8FF;
+  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(178, 232, 255, 0.8 )), url(images/cards-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .encabezado{
-  font-weight: 800;
-  margin-bottom: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+#services h2{
+  font-size: 45px;
+}
+
+/*-------------------------------PROFILES---------------------------------*/
+
+#profiles{
+  padding: 6%;
+}
+
+#profiles > ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  text-align: center;
+}
+
+li.profile{
+  height: 100%;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.description{
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5%;
+}
+
+.description i{
+  font-size: 35px;
+  width: 30%;
+}
+
+.description i:hover{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.picture{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(20, 0, 255, 0.8));
+
 }
 
 /*------------------------------FOOTER---------------------------------*/
+
 footer {
   height: 10%;
 }
