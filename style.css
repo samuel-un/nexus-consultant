@@ -218,6 +218,23 @@ li.profile{
   background-color: rgb(255, 255, 255);
   background-image: linear-gradient(to top, rgb(178, 232, 255), rgba(20, 0, 255, 1));
 }
+/*----------------------------------SELECTED-PROFILE-------------------------------------*/
+
+#selected-profile{
+  height: 800px;
+  background-color: aliceblue;
+}
+.member{
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  float: left;
+}
+.member-description{
+  float: left;
+  width: 40%;
+  height: 100%;
+}
 
 /*------------------------------FOOTER---------------------------------*/
 
