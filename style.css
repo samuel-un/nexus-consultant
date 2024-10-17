@@ -23,27 +23,27 @@ header {
   align-items: center;
 }
 
-#nexus-logo{
+#nexus-logo {
   padding-left: 5%;
 }
 
-nav{
+nav {
   padding-right: 5%;
   width: 200px;
   text-align: right;
 }
-nav a{
+nav a {
   color: white;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
 }
-nav i{
+nav i {
   padding: 20px;
 }
 
 a:hover {
-  color: #B2E8FF;
+  color: #b2e8ff;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -65,11 +65,11 @@ section#title {
   bottom: 0;
 }
 
-section#title p{
-width: 70%;
+section#title p {
+  width: 70%;
 }
 
-#subtitle{
+#subtitle {
   font-size: 20px;
 }
 
@@ -78,7 +78,12 @@ div#front-page {
   background-color: rgb(15, 8, 38);
   color: white;
   position: relative;
-  background-image: linear-gradient(to right, rgba(10, 0, 38), rgba(141, 118, 215, 0.21)), url(images/foto-portada.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(10, 0, 38),
+      rgba(141, 118, 215, 0.21)
+    ),
+    url(images/foto-portada.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,37 +106,42 @@ button#info {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  background-color: #B2E8FF;
+  background-color: #b2e8ff;
   border-color: transparent;
 }
 
-button#info:hover{
+button#info:hover {
   border-color: transparent;
-  background-color: #1400FF;
+  background-color: #1400ff;
   color: white;
 }
 
-button i{
+button i {
   padding: 10px;
 }
 
 /*-----------------------------SERVICES------------------------------*/
 
-#services{
+#services {
   padding: 5%;
   margin: 5% 0;
 }
 
-#services ol{
+#services ol {
   padding: 5% 0;
   display: flex;
   justify-content: space-between;
-  gap: 20px
+  gap: 20px;
 }
 
-#services li{
-  background-color:  #B2E8FF;
-  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(28, 21, 102, 0.7)), url(images/cards-background.png);
+#services li {
+  background-color: #b2e8ff;
+  background-image: linear-gradient(
+      to top,
+      rgb(10, 0, 38),
+      rgba(28, 21, 102, 0.7)
+    ),
+    url(images/cards-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,32 +153,37 @@ button i{
   padding: 3%;
 }
 
-#services li:hover{
-  background-color:  #B2E8FF;
-  background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(178, 232, 255, 0.8 )), url(images/cards-background.png);
+#services li:hover {
+  background-color: #b2e8ff;
+  background-image: linear-gradient(
+      to top,
+      rgb(10, 0, 38),
+      rgba(178, 232, 255, 0.8)
+    ),
+    url(images/cards-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
-.encabezado{
+.encabezado {
   font-weight: 700;
   margin-bottom: 50px;
   font-size: 18px;
 }
 
-#services h2{
+#services h2 {
   font-size: 45px;
 }
 
 /*-------------------------------PROFILES---------------------------------*/
 
-#profiles{
+#profiles {
   padding: 6%;
 }
 
-#profiles > ul{
+#profiles > ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -176,7 +191,7 @@ button i{
   text-align: center;
 }
 
-li.profile{
+li.profile {
   height: 100%;
   width: 18%;
   display: flex;
@@ -184,13 +199,13 @@ li.profile{
   align-items: center;
 }
 
-.name{
+.name {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
 }
 
-.description{
+.description {
   height: 30%;
   display: flex;
   flex-direction: column;
@@ -199,43 +214,87 @@ li.profile{
   padding: 5%;
 }
 
-.description i{
+.description i {
   font-size: 35px;
   width: 30%;
 }
 
-.description i:hover{
+.description i:hover {
   background-color: black;
   color: white;
   border-radius: 5px;
 }
 
-
-.picture{
+.picture {
   height: 200px;
   width: 200px;
   border-radius: 100%;
   background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(to top, rgb(178, 232, 255), rgba(20, 0, 255, 1));
+  background-image: linear-gradient(
+    to top,
+    rgb(178, 232, 255),
+    rgba(20, 0, 255, 1)
+  );
 }
 /*----------------------------------SELECTED-PROFILE-------------------------------------*/
 
-#selected-profile{
+#selected-profile {
   height: 800px;
   background-color: aliceblue;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
 }
-.member{
-  width: 60%;
+.member {
+  width: 50%;
   height: 100%;
-  background-color: black;
+  background-color: transparent;
   float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.member-description{
+.member-description {
   float: left;
-  width: 40%;
+  width: 50%;
   height: 100%;
+  padding-left: 30px;
+
 }
 
+#selected-profile div.picture {
+  height: 500px;
+  width: 500px;
+  align-self: center;
+  flex: 0 0 auto;
+}
+
+/*------------------------------SELECTED-MEMBER-DESCRIPTION--------------------------------------*/
+
+#selected-profile div.member-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+div.member-description strong{
+  font-size: 20px;
+}
+h3 {
+  font-size: 40px;
+  color: #1400ff;
+}
+.member-contact {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#selected-profile div.member-description div > i {
+  font-size: 40px;
+}
 /*------------------------------FOOTER---------------------------------*/
 
 footer {
