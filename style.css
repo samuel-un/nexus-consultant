@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #142135;
+    color: white;
+    padding: 20px 0;
+    width: 100vw; /* Ancho total de la ventana */
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; /* Flex-wrap para pantallas pequeñas */
+}
+
+.footer-left, .footer-right {
+    width: 48%; /* Ocuparán casi la mitad del ancho de la pantalla */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-left, .footer-right {
+        width: 100%; /* En pantallas pequeñas, ocupan todo el ancho */
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.contact-info h3, .legal-info h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .legal-info p, .footer-right p {
+    margin-bottom: 5px;
+}
+
+.legal-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.legal-info a:hover {
+    text-decoration: underline;
+}
+
+.map iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #4682b4;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ffffff50;
+    width: 100%;
+    background-color: #0f1b2d;
+    height: auto;
+    overflow: hidden;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain; /* Ajuste correcto del tamaño de imagen */
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin-top: 10px;
+}
