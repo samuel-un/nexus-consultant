@@ -12,7 +12,7 @@ body {
 /*----------------------------------NAVBAR-------------------------------------*/
 header {
   background-color: transparent;
-  height: 80px;
+  height: 60px;
   width: 100%;
   z-index: 10;
   position: fixed;
@@ -21,6 +21,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: drop-shadow(4px 4px 10px #1400ff);
+  backdrop-filter: opacity(70%);
+  backdrop-filter: blur(10px);
+  background-color:rgba(14, 14, 119, 0.7);
+
 }
 
 #nexus-logo {
@@ -34,12 +39,13 @@ nav {
 }
 nav a {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
 }
 nav i {
   padding: 20px;
+  font-size: 25px;
 }
 
 a:hover {
@@ -259,7 +265,6 @@ li.profile {
   width: 50%;
   height: 100%;
   padding-left: 30px;
-
 }
 
 #selected-profile div.picture {
@@ -278,7 +283,7 @@ li.profile {
   align-items: flex-start;
   gap: 20px;
 }
-div.member-description strong{
+div.member-description strong {
   font-size: 20px;
 }
 h3 {
