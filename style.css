@@ -33,8 +33,6 @@ header {
   padding-left: 5%;
 }
 
-nav {
-}
 
 #nexus-logo{
   padding-left: 5%;
@@ -56,8 +54,6 @@ nav i {
   font-size: 25px;
 }
 
-a:hover {
-  color: #b2e8ff;
 nav a{
   color: white;
   font-size: 30px;
@@ -78,7 +74,7 @@ a:hover {
 
 /*-----------------------------FRONT-PAGE--------------------------------*/
 
-section#title {
+section #title {
   float: left;
   height: 80%;
   width: 50%;
@@ -91,12 +87,12 @@ section#title {
   bottom: 0;
 }
 
-section#title p {
+section #title p {
   width: 70%;
 }
 
-#subtitle {
-section#title p{
+
+section #title p{
 width: 70%;
 }
 
@@ -165,7 +161,7 @@ button i{
 
 /*-----------------------------SERVICES------------------------------*/
 
-#services {
+
 #services{
   padding: 5%;
   margin: 5% 0;
@@ -186,6 +182,7 @@ button i{
       rgba(28, 21, 102, 0.7)
     ),
     url(images/cards-background.png);
+}
 #services ol{
   padding: 5% 0;
   display: flex;
@@ -215,6 +212,7 @@ button i{
       rgba(178, 232, 255, 0.8)
     ),
     url(images/cards-background.png);
+}
 #services li:hover{
   background-color:  #B2E8FF;
   background-image: linear-gradient(to top, rgb(10, 0, 38), rgba(178, 232, 255, 0.8 )), url(images/cards-background.png);
@@ -224,14 +222,14 @@ button i{
   color: white;
 }
 
-.encabezado {
+
 .encabezado{
   font-weight: 700;
   margin-bottom: 50px;
   font-size: 18px;
 }
 
-#services h2 {
+
 #services h2{
   font-size: 45px;
 }
@@ -255,7 +253,7 @@ button i{
   text-align: center;
 }
 
-li.profile {
+
 li.profile{
   height: 100%;
   width: 18%;
@@ -264,14 +262,13 @@ li.profile{
   align-items: center;
 }
 
-.name {
+
 .name{
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
 }
 
-.description {
 .description{
   height: 30%;
   display: flex;
@@ -281,20 +278,18 @@ li.profile{
   padding: 5%;
 }
 
-.description i {
 .description i{
   font-size: 35px;
   width: 30%;
 }
 
-.description i:hover {
 .description i:hover{
   background-color: black;
   color: white;
   border-radius: 5px;
 }
 
-.picture {
+
 
 .picture{
   height: 200px;
