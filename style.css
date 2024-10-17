@@ -307,8 +307,18 @@ li.profile{
 }
 
 .review-header i{
-color:rgb(10, 238, 10);
-font-size: 20px;
+color:rgb(218, 229, 19);
+font-size: 10px;
+}
+
+#Image-user{
+  color: black;
+  font-size: 30px;
+}
+
+#check{
+  color: blue;
+  font-size: 20px;
 }
 
 
