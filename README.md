@@ -6,9 +6,21 @@
 ---
 
 ### Index
+- [Members](#members)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+- [Stacks](#stacks)
 - [License](#license)
+
+---
+
+### Members
+
+- Judith Tamayo Balogh https://github.com/jthamayo
+- Samuel Utrilla Núñez https://github.com/samuel-un
+- Israel Abad Barrera https://github.com/Israelab01
+- Nicolás Burgos Contreras https://github.com/blurry0507
+- Alejandro Gómez Ojeda https://github.com/AleGomoj
 
 ---
 
@@ -21,11 +33,18 @@
 
 ---
 
-### Technologies Used
+### Screenshots
+
+![readme1](https://github.com/user-attachments/assets/d57df3fb-fa06-423a-9366-01927a58b5e6)
+![readme2](https://github.com/user-attachments/assets/e97f5f0d-1d5c-4355-aefb-c04439d7d480)
+![readme3](https://github.com/user-attachments/assets/942c5701-3124-493c-b7c3-d4ea738eee02)
+
+
+---
+
+### Stacks
 
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: -
-- **Database**: -
 - **Version Control**: Git and GitHub
 
 ---
