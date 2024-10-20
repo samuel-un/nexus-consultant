@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -458,25 +457,13 @@ section#reviews {
 }
 
 /*------------------------------FOOTER---------------------------------*/
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
 
 footer {
-    background-color: #142135;
-    color: white;
+    background-color: rgb(10, 0, 38);
+    color: rgba(255, 255, 255, 0.6);
     padding: 20px 0;
     width: 100vw; /* Ancho total de la ventana */
+    font-weight: 200
 }
 
 .footer-container {
@@ -507,8 +494,8 @@ footer {
 }
 
 .circle {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
@@ -516,90 +503,30 @@ footer {
 
 h2 {
     font-size: 20px;
+    font-weight: 300;
 }
 
 .contact-info h3, .legal-info h3, .footer-right h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    font-weight: 300;
+
 }
 
 .contact-info p, .legal-info p, .footer-right p {
     margin-bottom: 5px;
+    
+}
+.social-icons i{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .legal-info a {
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    
 }
 
-.legal-info a:hover {
-    text-decoration: underline;
+.footer-bottom strong{
+    font-weight: 300;
 }
-
-.map iframe {
-    width: 100%;
-    height: 200px;
-    border: 0;
-}
-
-.newsletter form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
-.newsletter input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.newsletter button {
-    padding: 10px;
-    background-color: #1e90ff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.newsletter button:hover {
-    background-color: #4682b4;
-}
-
-.footer-bottom {
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #ffffff50;
-    width: 100%;
-    background-color: #0f1b2d;
-    height: auto;
-    overflow: hidden;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-    color: white;
-}
-
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain; /* Ajuste correcto del tamaño de imagen */
-}
-
-.footer-bottom p {
-    font-size: 14px;
-    margin-top: 10px;
-}
->>>>>>> alejandro
