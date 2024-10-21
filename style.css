@@ -653,53 +653,88 @@ footer > h2 {
 /*-----------------------------FORMULARIO-----------------------------*/
 
 .page-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 800px;
   background-color: #001e45;
+  background-image: linear-gradient(to top, rgb(178, 232, 255), #1a1aad);
+  padding: 10% 0;
 }
 
 .container_formulario {
+  text-align: center;
+  margin: 0 auto;
   background-color: white;
-  padding: 20px;
+  width: 60%;
+  height: 500px;
+  padding: 90px 40px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
+}
+
+.datos-personales {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 form#contact-form {
+  margin-top: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
   width: 100%;
 }
 
 .form-group {
   margin-bottom: 15px;
-  width: 100%;
+  width: 80%;
 }
 
 form#contact-form label {
-  display: block;
   margin-bottom: 5px;
+}
+
+.form-conditions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 form#contact-form input,
 form#contact-form textarea {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  height: 20px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+#accept {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+#accept p {
+  display: inline-block;
+  width: 95%;
+}
+#accept input {
+  width: 5px;
+  padding: 0;
+  margin: 0;
 }
 
 button#submit {
   background-color: #b2e8ff;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
+  width: 30%;
   border: none;
-  border-radius: 4px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+button#submit:hover {
+  background-color: #1400ff;
+  color: #ededed;
 }

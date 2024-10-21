@@ -233,46 +233,55 @@
     </section>
 
      <!----------------------------FORMULARIO--------------------------------->
-<div class="page-container">
-    <div class="container_formulario">
-        <h2>¿Cómo podemos ayudarte?</h2>
-        <p>Escríbenos tu duda e información de contacto y te responderemos lo antes posible</p>
-        <form id="contact-form">
-            <div class="form-group">
-                <label for="nombre">Nombre*</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div class="form-group">
-                <label for="apellido">Apellido*</label>
-                <input type="text" id="apellido" name="apellido" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email profesional*</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="telefono">¿A qué teléfono podemos llamarte?</label>
-                <input type="tel" id="telefono" name="telefono">
-            </div>
-            <div class="form-group">
-                <label for="empresa">Empresa*</label>
-                <input type="text" id="empresa" name="empresa" required>
-            </div>
-            <div class="form-group">
-                <label for="rol">Rol*</label>
-                <input type="text" id="rol" name="rol" required>
-            </div>
-            <div class="form-group">
-                <label for="mensaje">¿Cómo podemos ayudarte?</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-            </div>
-            <div class="form-group">
-                <input type="checkbox" id="politica-privacidad" name="politica-privacidad" required>
-                <label for="politica-privacidad">Acepto la política de privacidad y recibir comunicaciones</label>
-            </div>
-            <button id="submit" type="submit">Enviar mensaje</button>
-        </form>
-    </div>
+    <div class="page-container">
+        <div class="container_formulario">
+            <h2>¿Cómo podemos ayudarte?</h2>
+            <p>Escríbenos tu duda e información de contacto y te responderemos lo antes posible</p>
+            <form id="contact-form">
+                <div class="datos-personales">
+                    <div class="form-group">
+                        <label for="nombre">Nombre*</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido*</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email profesional*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">¿A qué teléfono podemos llamarte?</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="datos-personales">
+                    <div class="form-group">
+                        <label for="empresa">Empresa*</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rol">Rol*</label>
+                        <input type="text" id="rol" name="rol" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">¿Cómo podemos ayudarte?</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <div class="form-conditions">
+                    <div id="accept">
+                        <input type="checkbox" id="politica-privacidad" name="politica-privacidad" required>
+                        <p>Acepto la política de privacidad y recibir comunicaciones</p>
+                    </div>
+                    
+                    <button id="submit" type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </div>    
     <!----------------------------footer--------------------------------->
 
     <footer>
