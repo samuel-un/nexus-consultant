@@ -30,7 +30,10 @@ header {
 }
 
 #nexus-logo {
-  padding-left: 5%;
+  margin-left: 54px;
+  height: 70px;
+  background-image: linear-gradient(to right, #050572, #00b3ff);
+  border-radius: 100px;
 }
 
 nav {
@@ -358,6 +361,11 @@ div.member-description strong {
   font-size: 40px;
 }
 
+#member-profile{
+  height: 500px;
+  width: 500px;
+}
+
 /*----------------------------------SELECTED-PROFILE-------------------------------------*/
 
 #selected-profile {
@@ -511,6 +519,14 @@ footer {
     margin-bottom: 20px;
 }
 
+#nexus-logo-footer {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(to right, rgb(11, 0, 61), #1a1aad);
+  border-radius: 100px;
+  margin-right: 20px
+}
+
 .circle {
     width: 25px;
     height: 25px;
@@ -524,11 +540,14 @@ footer > h2 {
     font-weight: 300;
 }
 
+.contact-info{
+  margin-bottom: 20px;
+}
+
 .contact-info h3, .legal-info h3, .footer-right h3 {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 300;
-
 }
 
 .contact-info p, .legal-info p, .footer-right p {
@@ -542,13 +561,13 @@ footer > h2 {
 .legal-info a {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    
 }
 
 .map iframe {
     width: 100%;
     height: 200px;
-    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .newsletter form {
