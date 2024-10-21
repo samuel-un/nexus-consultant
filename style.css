@@ -101,7 +101,7 @@ section#title {
   font-weight: 600;
 }
 div#front-page {
-  height: 800px;
+  height: 650px;
   background-color: rgb(15, 8, 38);
   color: white;
   position: relative;
@@ -236,6 +236,23 @@ button i {
   text-align: center;
   margin: 5%;
 }
+
+/* #profiles > ul:first-child .picture {
+  background-image: url(images/samuel.png);
+} */
+
+.image-avatar {
+    height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top,
+    rgb(178, 232, 255),
+    rgba(20, 0, 255, 1)
+  );
+}
+
 
 li.profile {
   height: 100%;
