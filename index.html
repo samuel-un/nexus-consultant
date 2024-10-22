@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d97b9905ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img id="nexus-logo" alt="logo" src="images/logo.png" />
+      <nav>
+        <a href="#">Menu<i class="fa-solid fa-bars"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#profiles">Miembros</a></li>
+          <li><a href="#page-container">Formulario</a></li>
+        </ul>
+      </nav>
+    </header>    
+    <div id="front-page">
+      <section id="title">
+        <p id="type">Especialistas en <strong id="desarrollo">desarrollo</strong> <strong id="web">web</strong></p>
+        <p id="consultora"><strong>Consultora</strong></p>
+        <h1>Tecnológica</h1>
+        <p id="subtitle">Impulsamos tu crecimiento a través de la tecnología</p>
+        
+        <a href="#page-container"><button id="info">Contáctanos<i class="fa-solid fa-plus"></i></button></a>
+      </section>
+    </div>
+
+    <!-------------------------------services------------------------------>
+
+    <section id="services">
+      <h2>Qué ofrecemos</h2>
+      <ol id="cards-container">
+        <li class="card">
+          <p class="encabezado">Asesoría en Transformación Digital</p>
+          <p>
+            Ayudar a las empresas a integrar tecnologías digitales en sus
+            procesos y operaciones, mejorando la eficiencia y la experiencia del
+            cliente.
+          </p>
+        </li>
+        <li class="card">
+          <p class="encabezado">Desarrollo de Software a Medida</p>
+          <p>
+            Crear soluciones de software personalizadas que se adapten a las
+            necesidades específicas de cada cliente, desde aplicaciones móviles
+            hasta sistemas de gestión empresarial.
+          </p>
+        </li>
+        <li class="card">
+          <p class="encabezado">Ciberseguridad</p>
+          <p>
+            Evaluar y mejorar la seguridad de los sistemas de información de las
+            empresas, implementando medidas de protección y respuesta ante
+            incidentes.
+          </p>
+        </li>
+        <li class="card">
+          <p class="encabezado">Consultoría en Nube</p>
+          <p>
+            Asistir a las organizaciones en la migración y gestión de servicios
+            en la nube, optimizando su infraestructura y garantizando la
+            escalabilidad y la seguridad de sus datos.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!----------------------------profiles--------------------------------->
+
+    <section id="profiles">
+      <h2>Nuestro Equipo</h2>
+      <ul id="profile-container">
+        <li class="profile">
+          <!-- <div class="picture"></div> -->
+          <img id="avatar-samuel" class="image-avatar" src="images/samuel.png" alt="avatar de samuel">
+          <div class="description">
+            <p class="name">Samuel</p>
+            <p class="role">Web developer</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+        <li class="profile">
+          <img class="image-avatar" src="images/nicolas.png" alt="avatar de nicolas">
+          <div class="description">
+            <p class="name">Nicolás</p>
+            <p class="role">Web developer</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+        <li class="profile">
+          <img class="image-avatar" src="images/israel.png" alt="avatar de israel">
+          <div class="description">
+            <p class="name">Israel</p>
+            <p class="role">Web developer</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+        <li class="profile">
+          <img class="image-avatar" src="images/alejandro.png" alt="avatar de alejandro">
+          <div class="description">
+            <p class="name">Alejandro</p>
+            <p class="role">Web developer</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+        <li class="profile">
+          <img class="image-avatar" src="images/judith.png" alt="avatar de judith">
+          <div class="description">
+            <p class="name">Judith</p>
+            <p class="role">Web developer</p>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!---------------------------selected-profile---------------------------------->
+
+    <section id="selected-profile">
+      <div class="member"><img id="member-profile" class="image-avatar" src="images/nicolas.png" alt="avatar de nicolas"></div></div>
+      <div class="member-description">
+        <h2>Nicolás Burgos Conteras</h2>
+        <strong>Especialista Front End</strong>
+        <p>
+          Desarrollador web front end apasionado por crear experiencias
+          digitales intuitivas y atractivas. Con experiencia en HTML, CSS y
+          JavaScript, me especializo en transformar diseños en interfaces
+          funcionales y responsivas.
+        </p>
+        <p>
+          Me gusta colaborar en equipos multidisciplinarios, aplicando las
+          mejores prácticas de desarrollo y optimizando el rendimiento de las
+          aplicaciones. Siempre en busca de aprender y adaptarme a nuevas
+          tecnologías para ofrecer soluciones innovadoras que superen las
+          expectativas de los clientes.
+        </p>
+        <div class="member-contact">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-github"></i>
+          <a href="#page-container"><button id="info">Contáctame<i class="fa-solid fa-plus"></i></button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------------reviews-------------------------------->
+
+    <section id="reviews">
+      <div class="rating-summary">
+        <div class="black-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <p>Based on 120 reviews.</p>
+      </div>
+      <div class="reviews">
+        <div class="review-card">
+          <div class="review-header">
+            <i id="Image-user" class="fa-solid fa-user"></i>
+            <p class="user-name">TechNova</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <i id="check" class="fa-regular fa-circle-check"></i>
+            <p class="date">12/07/22</p>
+          </div>
+          <div class="review-body">
+            <p>
+              "Nexus Consulting nos ayudó a optimizar procesos y aumentar la
+              eficiencia operativa. Superaron nuestras expectativas." — <strong>Ramírez, CEO de TechNova Solutions</strong>
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <i id="Image-user" class="fa-solid fa-user"></i>
+            <p class="user-name">FinCorp</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <i id="check" class="fa-regular fa-circle-check"></i>
+            <p class="date">04/07/22</p>
+          </div>
+          <div class="review-body">
+            <p>
+              "Implementamos un modelo operativo más ágil y estamos mejor
+              preparados para el futuro, todo gracias a Nexus." — <strong>Javier Torres,
+              CFO de FinCorp Capital</strong>
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <i id="Image-user" class="fa-solid fa-user"></i>
+            <p class="user-name">EcoGreen</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <i id="check" class="fa-regular fa-circle-check"></i>
+            <p class="date">22/07/22</p>
+          </div>
+          <div class="review-body">
+            <p>
+              "Su enfoque en sostenibilidad nos ayudó a reducir costos y mejorar
+              nuestro impacto ambiental." — <strong>Ana Gómez, Directora General de
+              Industrias Ecogreen.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!----------------------------FORMULARIO--------------------------------->
+    <div class="page-container" id="page-container">
+        <div class="container_formulario">
+            <h2>¿Cómo podemos ayudarte?</h2>
+            <p>Escríbenos tu duda e información de contacto y te responderemos lo antes posible</p>
+            <form id="contact-form">
+                <div class="datos-personales">
+                    <div class="form-group">
+                        <label for="nombre">Nombre*</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido*</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email profesional*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">¿A qué teléfono podemos llamarte?</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="datos-personales">
+                    <div class="form-group">
+                        <label for="empresa">Empresa*</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rol">Rol*</label>
+                        <input type="text" id="rol" name="rol" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">¿Cómo podemos ayudarte?</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <div class="form-conditions">
+                    <div id="accept">
+                        <p>* Al enviar la solicitud aceptas la política de privacidad.</p>
+                    </div>
+                    <button id="submit" type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </div>    
+    <!----------------------------footer--------------------------------->
+
+    <footer>
+      <div class="footer-transition1"></div>
+      <div class="footer-transition2"></div>
+      <div class="footer-container">
+          <div class="footer-left">
+              <div class="logo">
+                <img id="nexus-logo-footer" alt="logo" src="images/logo.png" />
+                  <h2>Nexus Consulting</h2>
+              </div>
+              <div class="contact-info">
+                  <h3>Información de contacto</h3>
+                  <li>Calle Innovación, 12, Sevilla, España</p></li>
+                  <li>Teléfono: 955 123 456</p></li>
+                  <li>Email: contacto@nexus.com</p></li>
+                  <li>Horario de atención: Lunes a Viernes 9:00 - 18:00</li>
+              </div>
+              <div class="legal-info">
+              </br>
+                  <h3>Política de privacidad y términos legales</h3>
+                  <li><a href="#">Política de privacidad</a></li>
+                  <li><a href="#">Términos y condiciones</a></li>
+              </div>
+          </div>
+          <div class="footer-right">
+              <h3>Cómo llegar a nuestras oficinas</h3>
+              <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509423!2d144.9537353157072!3d-37.816279742021774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f0b22dbb%3A0xfb1f4d344b5f3b9!2sVictoria%20Market!5e0!3m2!1sen!2sau!4v1603541924452!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="newsletter">
+                  <h3>Boletín de Suscripción (Newsletter)</h3>
+                  <form action="#">
+                      <input type="email" placeholder="Introduce tu email para suscribirte">
+                      <button type="submit">Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <p><strong>© 2024 Nexus Consulting. Todos los derechos reservados.</p></strong>
+      </div>
+  </footer>
+  </body>
+</html>
