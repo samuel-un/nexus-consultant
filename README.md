@@ -1,6 +1,6 @@
 # Nexus Consulting
 
-https://samuel-un.github.io/nexus-consulting/
+[Web Preview](https://samuel-un.github.io/nexus-consulting/)
 
 ### Description
 **Nexus Consulting** is a collaborative project developed by students of Higher Level Vocational Training in Web Application Development (DAW). The project consists of creating a consulting platform that facilitates communication between consultants and clients, providing a project management system, data analysis, and personalized advice.
@@ -39,9 +39,12 @@ https://samuel-un.github.io/nexus-consulting/
 
 ### Screenshots
 
-![readme1](https://github.com/user-attachments/assets/d57df3fb-fa06-423a-9366-01927a58b5e6)
-![readme2](https://github.com/user-attachments/assets/e97f5f0d-1d5c-4355-aefb-c04439d7d480)
-![readme3](https://github.com/user-attachments/assets/942c5701-3124-493c-b7c3-d4ea738eee02)
+![captura1](https://github.com/user-attachments/assets/c3890c56-915b-48d5-917f-ce3bde3983e1)
+![captura2](https://github.com/user-attachments/assets/753a30c5-3b9a-4b62-bafb-10e155672788)
+![captura3](https://github.com/user-attachments/assets/c82f6309-19e6-4285-9933-162db32c5db4)
+![captura4](https://github.com/user-attachments/assets/62ec4c35-af17-4aba-874c-339f267ed56e)
+![captura5](https://github.com/user-attachments/assets/4db822fc-556c-4605-897e-675cc9772dde)
+![captura6](https://github.com/user-attachments/assets/e527aea0-e40a-4ff4-8a35-b5348abfe00e)
 
 
 ---
