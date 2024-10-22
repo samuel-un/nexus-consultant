@@ -51,7 +51,8 @@
 
 ### Stacks
 
-- **Frontend**: HTML5, CSS3, JavaScript
+- **Tools**: Figma, Trello.
+- **Frontend**: HTML5, CSS3.
 - **Version Control**: Git and GitHub
 
 ---
