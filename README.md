@@ -1,5 +1,7 @@
 # Nexus Consulting
 
+https://samuel-un.github.io/nexus-consulting/
+
 ### Description
 **Nexus Consulting** is a collaborative project developed by students of Higher Level Vocational Training in Web Application Development (DAW). The project consists of creating a consulting platform that facilitates communication between consultants and clients, providing a project management system, data analysis, and personalized advice.
 
