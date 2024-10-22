@@ -64,9 +64,47 @@ nav i {
 }
 
 a:hover {
-  color: #b2e8ff;
+  color: #00b3ff;
   text-decoration: none;
   text-transform: uppercase;
+  
+}
+
+/* Estilos del menú desplegable */
+nav {
+  position: relative;
+}
+
+.dropdown-menu {
+  width: 170px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 65px;
+  right: 70px;
+  background-color: #001e45;
+  display: none;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #1400ff;
+}
+
+nav:hover .dropdown-menu {
+  display: block;
 }
 
 /*///////////////////////////////////////////////////////////////*/
@@ -245,8 +283,6 @@ button i {
 } */
 
 .image-avatar {
-  height: 200px;
-  width: 200px;
   border-radius: 100%;
   background-color: rgb(255, 255, 255);
   background-image: linear-gradient(
@@ -654,7 +690,7 @@ footer > h2 {
 
 .page-container {
   width: 100%;
-  min-height: 800px;
+  min-height: 400px;
   background-color: #001e45;
   background-image: linear-gradient(to top, rgb(178, 232, 255), #1a1aad);
   padding: 10% 0;
@@ -665,7 +701,7 @@ footer > h2 {
   margin: 0 auto;
   background-color: white;
   width: 60%;
-  height: 500px;
+  height: 400px;
   padding: 90px 40px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -709,10 +745,12 @@ form#contact-form textarea {
   border: 1px solid #dadada;
   border-radius: 8px;
 }
+
 #accept {
   display: flex;
   align-items: center;
   width: 70%;
+  
 }
 #accept p {
   display: inline-block;

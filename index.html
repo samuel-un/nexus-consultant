@@ -20,16 +20,22 @@
     <header>
       <img id="nexus-logo" alt="logo" src="images/logo.png" />
       <nav>
-        <a href="">Menu<i class="fa-solid fa-bars"></i> </a>
+        <a href="#">Menu<i class="fa-solid fa-bars"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#profiles">Miembros</a></li>
+          <li><a href="#page-container">Formulario</a></li>
+        </ul>
       </nav>
-    </header>
+    </header>    
     <div id="front-page">
       <section id="title">
         <p id="type">Especialistas en <strong id="desarrollo">desarrollo</strong> <strong id="web">web</strong></p>
         <p id="consultora"><strong>Consultora</strong></p>
         <h1>Tecnológica</h1>
         <p id="subtitle">Impulsamos tu crecimiento a través de la tecnología</p>
-        <button id="info">Contáctanos<i class="fa-solid fa-plus"></i></button>
+        
+        <a href="#page-container"><button id="info">Contáctanos<i class="fa-solid fa-plus"></i></button></a>
       </section>
     </div>
 
@@ -145,7 +151,7 @@
         <div class="member-contact">
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-brands fa-square-github"></i>
-          <button id="info">Contáctame<i class="fa-solid fa-plus"></i></button>
+          <a href="#page-container"><button id="info">Contáctame<i class="fa-solid fa-plus"></i></button></a>
         </div>
       </div>
     </section>
@@ -233,7 +239,7 @@
     </section>
 
      <!----------------------------FORMULARIO--------------------------------->
-    <div class="page-container">
+    <div class="page-container" id="page-container">
         <div class="container_formulario">
             <h2>¿Cómo podemos ayudarte?</h2>
             <p>Escríbenos tu duda e información de contacto y te responderemos lo antes posible</p>
@@ -273,10 +279,8 @@
                 </div>
                 <div class="form-conditions">
                     <div id="accept">
-                        <input type="checkbox" id="politica-privacidad" name="politica-privacidad" required>
-                        <p>Acepto la política de privacidad y recibir comunicaciones</p>
+                        <p>* Al enviar la solicitud aceptas la política de privacidad.</p>
                     </div>
-                    
                     <button id="submit" type="submit">Enviar mensaje</button>
                 </div>
             </form>
